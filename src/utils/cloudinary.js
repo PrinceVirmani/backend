@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from "cloudinary";
 import { log } from "console";
 import fs from "fs";
-import * as fs from "node:fs";
+// import * as fs from "node:fs";
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
